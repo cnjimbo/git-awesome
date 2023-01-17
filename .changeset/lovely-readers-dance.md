@@ -2,4 +2,4 @@
 "git-awesome": patch
 ---
 
-asdf
+update ci
