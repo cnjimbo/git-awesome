@@ -1,5 +1,0 @@
----
-"git-awesome": patch
----
-
-asdf
