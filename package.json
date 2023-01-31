@@ -1,0 +1,24 @@
+{
+  "name": "git-awesome",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci:publish": "pnpm changeset publish"
+  },
+  "keywords": [],
+  "author": "jimbo",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
+  },
+  "volta": {
+    "node": "18.13.0"
+  }
+}
